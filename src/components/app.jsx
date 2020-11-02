@@ -21,7 +21,7 @@ class App extends Component {
     // API call
     giphy('QDxkTvuDqmgy4IgE2mMHBnOqViwltTYD').search({
       q: query,
-      rating: 'g',
+      rating: 'g', // All ages admitted – General audiences
       limit: 10
     }, (error, result) => {
       this.setState({
@@ -32,10 +32,6 @@ class App extends Component {
 
 
   render() {
-    const gifs = [
-      { id: "xT9IgDEI1iZyb2wqo8"},
-      { id: "kaYlcLV0XifKZFfwUm"}
-    ];
 
     return (
       <div>
