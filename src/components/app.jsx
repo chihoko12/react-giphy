@@ -9,9 +9,10 @@ class App extends Component {
   constructor(props) {
     super(props);
 
+    // App's state
     this.state = {
       gifs: [],
-      selectedGifId: "xT9IgDEI1iZyb2wqo8"
+      selectedGifId: null
     }
 
     this.search("disney");

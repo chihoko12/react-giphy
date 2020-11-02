@@ -7,6 +7,11 @@ class GifList extends Component {
     return this.props.gifs.map(gif => <Gif id={gif.id} key={gif.id} />);
   }
 
+  // handleClick = (event) => {
+    // this.props.setState({ selectedGifId: event.target.gif.id});
+    // console.log(event.gif.id)
+  // }
+
   render() {
     return(
       <div className="gif-list">
