@@ -17,7 +17,7 @@ class App extends Component {
       selectedGifId: 'xT9IgDEI1iZyb2wqo8'
     };
 
-    this.search('disney');
+    // this.search('disney');
 
   }
 
