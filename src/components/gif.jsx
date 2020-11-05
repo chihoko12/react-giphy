@@ -10,7 +10,7 @@ class Gif extends Component {
 
 
   render() {
-    initial selectedGif on the left
+    //initial selectedGif on the left
     if (!this.props.id) {
       return null;
     }
